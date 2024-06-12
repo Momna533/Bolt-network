@@ -28,6 +28,9 @@ header {
 main {
   background: url("./assets/diagmonds_@2X.png");
   padding: 1.75em 0.75em;
+  display: flex;
+  flex-direction: column;
+  gap: 2.75em;
 }
 section {
   display: flex;
@@ -123,5 +126,16 @@ footer {
     margin: 0 auto;
     flex-direction: row;
     gap: 1.75em;
+    align-items: flex-start;
+  }
+  .section__entry {
+    align-items: flex-start;
+  }
+  .section__entry__title {
+    text-align: start;
+    font-size: 32px;
+    text-transform: capitalize;
+    font-weight: normal;
+    margin-top: 0;
   }
 }
